@@ -1,0 +1,28 @@
+form {
+    background: #eee;
+    display: inline-block;
+    padding: 10px;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+    margin: 10px 3px;
+}
+
+.column span {
+    display: inline-block;
+    width: 80px;
+}
+
+.column input,
+.column select {
+    width: 150px;
+    height: 25px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    display: block;
+    margin: 10px auto 0;
+}
